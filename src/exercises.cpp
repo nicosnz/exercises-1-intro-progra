@@ -88,7 +88,8 @@ void exercise_7(double r) {
   double area;
   
     if (r>=0){
-    cout<< 4*3.14* r*r<<endl;
+    area=4*3.14*pow(r,2);
+    cout<<area<<endl;
       } 
     else {
     cout << "Error: Radius cannot be negative."<<endl;

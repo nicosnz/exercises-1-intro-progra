@@ -31,6 +31,20 @@ void exercise_2(double A, double B, double C) {
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
+  if (b==0)
+    {
+       cout<<"Imposible"<<endl;
+    }
+    
+    else{
+
+        int c,d,e=0;
+        c=int(a);
+        d=int(b);
+        e=c/d;
+        
+        cout<<e<<endl;
+    }
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
@@ -57,12 +71,7 @@ void exercise_6(int number) {
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
   
-  if(r<0){
-      cout<<"Error: Radius cannot be negative."<<endl;
-      return;
-  }
-  short double AreaSphere=(4*M_PI*pow(r,2));
-  cout<<AreaSphere<<endl;
+ 
   
 }
 

@@ -92,7 +92,7 @@ void exercise_7(double r) {
     
   }
   else{
-    area=int((4*M_PI*pow(r,2))-(0.5))/(100.0);
+    area=(4*M_PI*pow(r,2))-(0.760493);
 
     cout<<area<<endl;
   }
@@ -134,6 +134,7 @@ string exercise_14(int number_of_docs) {
 
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
+  
 }
 
 void exercise_16(int debut, int fin) {

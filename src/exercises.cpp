@@ -46,7 +46,7 @@ void exercise_7(double r) {
   }
   else{
       AreaSphere=4*M_PI*pow(r,2);
-      cout<<area<<endl;
+      cout<<AreaSphere<<endl;
   }
 }
 

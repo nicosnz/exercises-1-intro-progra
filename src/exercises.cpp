@@ -22,7 +22,7 @@ void exercise_1(string s1, string s2, string s3) {
   else {
     cout<<s1;
   }
-  
+
 }
 
 void exercise_2(double A, double B, double C) {
@@ -56,14 +56,14 @@ void exercise_6(int number) {
 }
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
-  long double AreaSphere=0;
+  
   if(r<0){
       cout<<"Error: Radius cannot be negative."<<endl;
+      return;
   }
-  else{
-      AreaSphere=4*M_PI*pow(r,2);
-      cout<<AreaSphere<<endl;
-  }
+  double AreaSphere=4*M_PI*pow(r,2);
+  cout<<AreaSphere<<endl;
+  
 }
 
 void exercise_8(long int seconds) {

@@ -56,12 +56,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
     rest=n-div;
     cout<<rest<<endl;
   }
-  else if(n>b){
-    mult=n*y;
-    div=mult/100.00;
-    rest=n-div;
-    cout<<rest<<endl;
-  }
+
   else if(n>a && n>b){
     rest=n-(n*x)+(n*y);
     cout<<rest<<endl;

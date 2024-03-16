@@ -55,7 +55,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
     cout<<precio<<endl;
   }
   else if(n>a && n>b){
-    precio2=n*0.875;
+    precio2=n-(n*y)/(100.00);
     cout<<precio2<<endl;
   }
   

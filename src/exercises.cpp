@@ -151,7 +151,7 @@ string exercise_14(int number_of_docs) {
 
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
-  int aux;
+  int aux,aux2;
   cout<<"Los valores son; a = "<<a<< "b = "<<b<< "y c = "<<c<<endl;
   
   //intercambios variables

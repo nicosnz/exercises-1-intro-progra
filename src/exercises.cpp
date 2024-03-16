@@ -63,7 +63,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
     cout<<rest<<endl;
   }
   else if(n>a && n>b){
-    rest=n-(n*x)-(n*y)
+    rest=n-(n*x)-(n*y);
     cout<<rest<<endl;
 
   }

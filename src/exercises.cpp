@@ -110,9 +110,10 @@ void exercise_8(long int seconds) {
   }
   else{
     horas= seconds/3600;
+    seconds%=3600;
     minutos=seconds/60;
     segundos=seconds%60;
-    cout<<horas":"<<minutos":"<<segundos":"<<endl;
+    cout<<hora<<minutos<<segundos<<endl;
 
 
   }

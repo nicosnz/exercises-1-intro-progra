@@ -51,7 +51,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
   double precio;
   if(n>a){
-    precio=n-(n*x);
+    precio*=n-(1-x/100.0);
     cout<<precio<<endl;
   }
 

@@ -127,7 +127,16 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
+  if (a < 0 || b < 0)
+    return 0;
+  int suma= a + b, digitos=0;
+  while (suma > 0) {
+    suma /= 10;
+    digitos++;
+  }
+  return digitos * (a + b);
 }
+
 
 string exercise_11(int number) {
   // TODO: YOUR CODE HERE

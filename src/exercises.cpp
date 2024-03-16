@@ -161,7 +161,7 @@ void exercise_15(int a, int b, int c) {
   b=aux;
   c=aux2;
 
-  cout<<"Permutamos: a => b, b => c, c => a";
+  cout<<"Permutamos: a => b, b => c, c => a"<<endl;
   cout<<"Los valores despues de la permutacion son: a = "<<a<< " b = "<<b<< " c = "<<c<<endl;
 }
 

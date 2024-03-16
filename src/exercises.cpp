@@ -33,7 +33,7 @@ void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
   if (b==0)
     {
-       cout<<"Imposible"<<endl;
+       cout<<"Impossible"<<endl;
     }
     
     else{

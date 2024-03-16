@@ -52,17 +52,19 @@ void exercise_4(double n, double a, double b, double x, double y) {
   double mult,div,rest;
   if(n>a){
     mult=n*x;
-    div=mult/100;
+    div=mult/100.00;
     rest=n-div;
     cout<<rest<<endl;
   }
   else if(n>b){
     mult=n*y;
-    div=mult/100;
+    div=mult/100.00;
     rest=n-div;
     cout<<rest<<endl;
   }
-
+  else{
+    cout<<n<<endl;
+  }
 }
 
 void exercise_5(char character) {

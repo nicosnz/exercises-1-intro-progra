@@ -105,7 +105,7 @@ void exercise_7(double r) {
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
   long int horas,minutos,segundos;
-  if(long int seconds<0){
+  if(seconds<0){
     cout<<"Error: Input seconds cannot be negative."<<endl;
   }
   else{

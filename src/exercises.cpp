@@ -49,12 +49,10 @@ void exercise_3(int a, int b) {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
-  double mult,div,rest;
+  double precio;
   if(n>a){
-    mult=n*x;
-    div=mult/100.00;
-    rest=n-div;
-    cout<<rest<<endl;
+    precio=n-(n*x);
+    cout<<precio<<endl;
   }
 
   

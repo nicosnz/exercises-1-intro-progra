@@ -40,7 +40,7 @@ void exercise_6(int number) {
 }
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
-  double area=0;
+  long double AreaSphere=0;
   if(r<0){
       cout<<"Error: Radius cannot be negative."<<endl;
   }

@@ -92,7 +92,7 @@ void exercise_7(double r) {
     
   }
   else{
-    area=int((4*M_PI*pow(r,2))-(0.5))/(100);
+    area=int((4*M_PI*pow(r,2))-(0.5))/(100.0);
 
     cout<<area<<endl;
   }

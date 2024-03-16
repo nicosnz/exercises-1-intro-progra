@@ -61,7 +61,7 @@ void exercise_7(double r) {
       cout<<"Error: Radius cannot be negative."<<endl;
       return;
   }
-  float AreaSphere=(4*M_PI*pow(r,2));
+  int AreaSphere=(4*M_PI*pow(r,2));
   cout<<AreaSphere<<endl;
   
 }

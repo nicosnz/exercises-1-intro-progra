@@ -87,7 +87,7 @@ void exercise_7(double r) {
   // TODO: YOUR CODE HERE
   double area;
   if(r<0){
-    cout<<"Error: Radius cannot be negative"<<endl;
+    cout<<"Error: Radius cannot be negative."<<endl;
     
   }
   else{

@@ -104,7 +104,7 @@ void exercise_7(double r) {
 }
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
-  long int horas,minutos,segundos;
+  int horas,minutos,segundos;
   if(seconds>=0){
     horas= seconds/3600;
     seconds%=3600;

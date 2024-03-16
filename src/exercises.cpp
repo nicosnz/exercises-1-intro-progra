@@ -49,6 +49,20 @@ void exercise_3(int a, int b) {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
+  double mult,div,rest;
+  if(n>a){
+    mult=n*x;
+    div=mult/100;
+    res=n-div;
+    cout<<res<<endl;
+  }
+  else if(n>b){
+    mult=n*y;
+    div=mult/100;
+    res=n-div;
+    cout<<res<<endl;
+  }
+
 }
 
 void exercise_5(char character) {
@@ -70,7 +84,7 @@ void exercise_6(int number) {
 }
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
-  
+
  
   
 }

@@ -152,7 +152,7 @@ string exercise_14(int number_of_docs) {
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
   int aux,aux2;
-  cout<<"Los valores son; a = "<<a<< "b = "<<b<< "y c = "<<c<<endl;
+  cout<<"Los valores son: a = "<<a<<" b = "<<b<< " y c = "<<c<<endl;
   
   //intercambios variables
   aux=a;
@@ -162,7 +162,7 @@ void exercise_15(int a, int b, int c) {
   c=aux2;
 
   cout<<"Permutamos: a => b, b => c, c => a";
-  cout<<"Los valores despues de la permutacion son; a = "<<a<< "b = "<<b<< "c = "<<c<<endl;
+  cout<<"Los valores despues de la permutacion son: a = "<<a<< " b = "<<b<< " c = "<<c<<endl;
 }
 
 void exercise_16(int debut, int fin) {

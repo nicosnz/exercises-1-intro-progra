@@ -62,7 +62,7 @@ void exercise_7(double r) {
       return;
   }
   double AreaSphere=(4*M_PI*pow(r,2))-(0.76);
-  cout<<Fixed<<setprecision(2)<<AreaSphere<<endl;
+  cout<<AreaSphere<<endl;
   
 }
 

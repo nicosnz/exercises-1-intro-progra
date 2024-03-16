@@ -50,17 +50,19 @@ void exercise_3(int a, int b) {
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
   double precio,precio2;
-  if(n>a){
+  if(n<a && n<b){
+    cout<<n<<endl;
+  }
+  
+ 
+  else if((n>a){
     precio=n-(n*x)/(100.00);
     cout<<precio<<endl;
   }
-  else if(n>a && n>b){
+  else{
     precio2=n-(n*y)/(100.00);
     cout<<precio2<<endl;
-  }
-  
-  else{
-    cout<<n<<endl;
+    
   }
 }
 

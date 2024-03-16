@@ -27,6 +27,7 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
+  
 }
 
 void exercise_3(int a, int b) {
@@ -84,11 +85,15 @@ void exercise_6(int number) {
 }
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
-
- 
-  
+  double area;
+  if(r>0){
+    area=4*M_PI*pow(r,2);
+    cout<<area<<endl;
+  }
+  else{
+    cout<<"Error:Radius cannot be negative"<<endl;
+  }
 }
-
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
 }

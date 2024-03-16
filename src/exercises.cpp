@@ -156,9 +156,11 @@ void exercise_15(int a, int b, int c) {
   
   //intercambios variables
   aux=a;
-  a = b;
-  b = c;
-  c=aux;
+  aux2=b;
+  a=c;
+  b=aux;
+  c=aux2;
+
   cout<<"Permutamos: a => b, b => c, c => a";
   cout<<"Los valores despues de la permutacion son; a = "<<a<< "b = "<<b<< "y c = "<<c<<endl;
 }

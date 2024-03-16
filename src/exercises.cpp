@@ -104,6 +104,18 @@ void exercise_7(double r) {
 }
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
+  long int horas,minutos,segundos;
+  if(long int seconds<0){
+    cout<<"Error: Input seconds cannot be negative."<<endl;
+  }
+  else{
+    horas= seconds/3600;
+    minutos=seconds/60;
+    segundos=seconds%60;
+    cout<<horas":"<<minutos":"<<segundos":"<<endl;
+
+
+  }
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {

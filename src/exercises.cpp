@@ -26,7 +26,29 @@ void exercise_1(string s1, string s2, string s3) {
 }
 
 void exercise_2(double A, double B, double C) {
-  // TODO: YOUR CODE HERE
+  double D = (B * B) - (4 * A * C);
+
+    
+    if (A==0 && B==0){
+
+    } else if (A == 0){
+        cout << -C/B << endl;
+
+    } else if (B == 0){
+        cout << sqrt(-C/A)<< endl;
+    } else if (D < 0){
+
+    } else if (D >= 0) {
+        double sqrt_D = sqrt(D);
+        double x1 = (-B + sqrt_D) / (2 * A);
+        double x2 = (-B - sqrt_D) / (2 * A);
+        
+        if (x1 == x2){
+            cout << x1 << endl;
+        } else {
+            cout << x1 << " " << x2 << endl;
+        }
+    }
   
 }
 
@@ -122,8 +144,24 @@ void exercise_8(long int seconds) {
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
-  // TODO: YOUR CODE HERE
-  return "";
+    char s1_ = s1 [0];
+    char s2_ = s2 [0];
+    char s3_ = s3 [0];
+    char s4_ = s4 [0];
+    char s5_ = s5 [0];
+
+    string result_;
+
+        if(s1_ == s5_){
+            result_ = "Hemos encontrado algo!";
+
+        } else {
+            result_ = "Aun sin suerte";
+        }
+    string result1 = string(1, s1_) + string(1, s2_) + string(1, s3_) + string(1, s4_) + string(1, s5_);
+    cout << result1 << endl;
+    return result_;
+
 }
 
 int exercise_10(int a, int b) {
@@ -155,7 +193,19 @@ void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
                  string color4, int numb4) {
-  // TODO: YOUR CODE HERE
+if(color4== "?" && numb1==numb4|| numb4==-1 && color1==color4|| color1==color4 && numb1==numb4){
+  cout << 1 << endl;
+}
+
+if(color4== "?" && numb2==numb4|| numb4==-1 && color2==color4|| color2==color4 && numb2==numb4){
+  cout << 2 << endl;
+}
+
+if(color4== "?" && numb3==numb4|| numb4==-1 && color3==color4|| color3==color4 && numb3==numb4){
+  cout << 3 << endl;
+}
+
+}
 }
 
 string exercise_13(int age, int years_of_experience) {
@@ -243,3 +293,4 @@ void exercise_16(int debut, int fin) {
 
     cout << "El monto total a pagar es de " << costo_total << " boliviano(s)."<<endl;
 }
+ 

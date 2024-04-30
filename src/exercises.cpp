@@ -62,8 +62,8 @@ void exercise_3(int a, int b) {
     else{
 
         int c,d,e=0;
-        c=int(a);
-        d=int(b);
+        c=a;
+        d=b;
         e=c/d;
         
         cout<<e<<endl;
